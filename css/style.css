@@ -18,9 +18,7 @@
      background-position:center;
      background-repeat: no-repeat;
      height: 80vh;
-     width: 70%;
-     border: 1px solid #cccccc76;
-     
+     width: 70%;     
  }
  .main-container{
      display: flex;
