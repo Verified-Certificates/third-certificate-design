@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara&family=Roboto&family=Sacramento&display=swap');
+*{
+     margin: 0;
+     padding: 0;
+ }
+
+ body{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     text-align:center;
+ }
+
+ .container-body{
+     background-image: url(/image/certificate-background.jpeg);
+     background-size: contain;
+     background-position:center;
+     background-repeat: no-repeat;
+     height: 80vh;
+     width: 70%;
+     border: 1px solid #cccccc76;
+     
+ }
+ .main-container{
+     display: flex;
+     justify-content:center;
+     flex-direction: row;
+     vertical-align: middle;
+ }
+.section-body{
+     position: relative;
+     top: 5rem;
+ }
+h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    margin-top: 3rem;
+    color: #7bcfcde8;
+}
+
+h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.7rem;
+    margin-top: 2rem; 
+}
+h2{
+    font-family: 'Sacramento', cursive;
+    font-size: 3rem;
+    margin-top: 2rem;
+    color: #7bcfcde8;
+}
+p{
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+}
+h6{
+ font-family: 'Roboto', sans-serif;
+}
+.sign{
+    font-family: 'Sacramento', cursive; 
+    color: #7bcfcde8;
+}
+
+.section-container{
+   display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+.section-container img{
+   width: 50px;
+
+}
+
+.director, .manger{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
